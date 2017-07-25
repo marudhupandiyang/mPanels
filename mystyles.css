@@ -1,0 +1,156 @@
+
+.describe-portfolio {
+  margin-bottom: 100px;
+}
+
+.describe-portfolio h1{
+  text-align: center;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+/*Panel css*/
+.plans .panels-wrapper {
+  margin: 0 auto;
+  display: block;
+  clear: both;
+  max-width: 940px;
+}
+
+.plans .panels-wrapper .col-md-4 {
+  padding: 0;
+}
+
+.plans .panels-wrapper .panel {
+  background: transparent;
+  border: 2px solid #DCE3E8;
+  border-radius: 8px;
+  padding: 20px 0;
+}
+
+.panel .icon-wrapper {
+  margin-top: 20px;
+}
+.panel .icon-wrapper i.fa:before{
+  font-size: 30px;
+  color: #F76B1D;
+}
+
+
+.panel-heading h3 {
+  font-weight: 600;
+  font-size: 28px;
+  letter-spacing: 1px;
+  line-height: 33px;
+  text-align: center;
+  margin: 0 0 17px 0;
+}
+
+.panel-heading .price {
+  font-weight: 600;
+  letter-spacing: 0;
+  text-align: center;
+  font-size: 28px;
+  line-height: 33px;
+  margin-bottom: 10px;
+}
+
+.panel-heading .big-number {
+  font-weight: 700;
+  font-size: 56px;
+}
+
+.panel-heading p {
+  font-size: 14px;
+  margin: 30px 0;
+}
+
+.panel-heading .btn {
+  background: linear-gradient(315deg,#F76B1D 52%,rgb(230, 185, 159) 100%);
+  color: #FFFFFF;
+  font-family: MuseoSansCyrl-500,sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+  border: none;
+  height: 53px;
+  width: 240px;
+  border-radius: 100px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 18px 0;
+  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+}
+
+/*overrie orange panel */
+.plans .panels-wrapper .panel.middle {
+  background: linear-gradient(0deg,#F76B1D 0%,rgb(230, 185, 159) 100%);
+  position: absolute;
+  left: -10px;
+  right: -10px;
+  z-index: 1;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  top: -20px;
+}
+
+.plans .panels-wrapper .panel.middle i.fa:before {
+  color: #fff;
+}
+
+.plans .panels-wrapper .panel.middle .btn {
+  background: #fff;
+  color: #F76B1D;
+}
+
+.plans .other-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.plans .other-link a {
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.plans .other-link a:hover {
+  color: #fff;
+  background-color: #F76B1D;
+}
+/*Panel css*/
+
+
+/*overrie orange panel */
+.plans.blue .panels-wrapper .panel.middle {
+  background: linear-gradient(0deg,#57aae0 0%,#72b5e0 100%);
+}
+.plans.blue .panels-wrapper .panel.middle .btn {
+  color: #57aae0;
+}
+
+.plans.blue .panel .icon-wrapper i.fa:before{
+  color: #57aae0;
+}
+
+.plans.blue .panel-heading .btn {
+  background: linear-gradient(315deg,#57aae0 52%,#72b5e0 100%);
+}
+
+
+.plans.blue .panel-heading .big-number {
+  font-size: 46px;
+}
+
+.plans.blue .other-link a:hover {
+  background-color: #57aae0;
+}
+
