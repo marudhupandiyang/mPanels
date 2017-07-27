@@ -122,10 +122,16 @@ section {
   text-decoration: none;
 }
 
+.plans .other-link a {
+  color: #F76B1D;
+}
+
 .plans .other-link a:hover {
   color: #fff;
   background-color: #F76B1D;
 }
+
+
 /*Panel css*/
 
 
@@ -133,6 +139,11 @@ section {
 .plans.blue .panels-wrapper .panel.middle {
   background: linear-gradient(0deg,#57aae0 0%,#72b5e0 100%);
 }
+
+.plans.blue .panels-wrapper .panel.middle .fa:before {
+  color: #fff;
+}
+
 .plans.blue .panels-wrapper .panel.middle .btn {
   color: #57aae0;
 }
@@ -150,7 +161,12 @@ section {
   font-size: 46px;
 }
 
+.plans.blue .other-link a {
+  color: #57aae0;
+}
+
 .plans.blue .other-link a:hover {
   background-color: #57aae0;
+  color: #fff;
 }
 
