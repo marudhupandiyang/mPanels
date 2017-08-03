@@ -135,7 +135,7 @@ section {
 /*Panel css*/
 
 
-/*overrie orange panel */
+/*override blue panel */
 .plans.blue .panels-wrapper .panel.middle {
   background: linear-gradient(0deg,#57aae0 0%,#72b5e0 100%);
 }
@@ -170,3 +170,20 @@ section {
   color: #fff;
 }
 
+
+@media(max-width: 1023px ) {
+  .panel-heading .btn {
+    width: 150px;
+  }
+}
+
+@media(max-width: 767px ) {
+  .plans .panels-wrapper .panel.middle {
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+}
